@@ -1,0 +1,13 @@
+{
+  "eval_name": "exec-deck-storyline-pt",
+  "prompt": "Tenho as notas da análise do piloto em pilot_findings.md. Estrutura-me um deck de 6 slides para o comité executivo aprovar o rollout. Só preciso da estrutura e do texto de cada slide, sem design. Guarda em deck.md.",
+  "assertions": [
+    "Deck states a one-sentence Big Idea with the 180k EUR ask",
+    "Every slide title is an action title (a full takeaway sentence, not a topic label)",
+    "The ask appears up front (executive summary or first slides), not only at the end",
+    "Executive summary points mirror the following slide titles (horizontal logic)",
+    "The billing escalation risk (+15%) is acknowledged with the mitigation, not hidden",
+    "Final slide contains an explicit call to action for approval of 180k EUR",
+    "All figures match the source notes (38%, 22%, 4.2 vs 4.3, 1.4M, 180k, 9 markets)"
+  ]
+}

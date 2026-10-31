@@ -1,0 +1,13 @@
+{
+  "eval_name": "fix-confusing-slide",
+  "prompt": "My director says this slide is confusing. Here's the script that generates it (bad_slide.py) and the current output (bad_slide.png). What's wrong with it? Fix it and give me the new PNG. It's for the quarterly business review with sales leadership; the point is that adding reps hasn't grown revenue.",
+  "assertions": [
+    "Response names a single biggest problem first",
+    "3D/shadowed pie chart is replaced by a sorted bar chart or text",
+    "Secondary y-axis is removed (direct labels or separate panels sharing the x-axis)",
+    "Truncated revenue bar axis (starting at 4.0) is fixed or bars replaced by a line",
+    "Rainbow colors replaced by grey plus a single accent",
+    "New chart has an action title stating reps grew while revenue stayed flat",
+    "Numbers in titles/annotations match the source data (reps 38 to 55, revenue about 4.1 to 4.2M)"
+  ]
+}

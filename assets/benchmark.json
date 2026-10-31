@@ -1,0 +1,50 @@
+{
+ "title": "With the skill, every agent passed at least 21 of 22 checks",
+ "subtitle": "Share of 22 assertions passed; both arms use the same model and reasoning level",
+ "rows": [
+  {
+   "label": "Claude Sonnet \u00b7 xhigh",
+   "control": [
+    14,
+    22
+   ],
+   "skill": [
+    22,
+    22
+   ]
+  },
+  {
+   "label": "Claude Haiku \u00b7 xhigh",
+   "control": [
+    17,
+    22
+   ],
+   "skill": [
+    22,
+    22
+   ]
+  },
+  {
+   "label": "Claude Haiku \u00b7 medium",
+   "control": [
+    16,
+    22
+   ],
+   "skill": [
+    21,
+    22
+   ]
+  },
+  {
+   "label": "Codex \u00b7 xhigh",
+   "control": [
+    16,
+    22
+   ],
+   "skill": [
+    22,
+    22
+   ]
+  }
+ ]
+}

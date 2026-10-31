@@ -1,0 +1,263 @@
+{
+ "assertions": {
+  "churn-chart-for-cfo": [
+   "Big Idea block (method format)",
+   "Action chart title",
+   "Pro highlighted, others grey",
+   "Direct labels, no legend",
+   "No gridlines, border or top/right spines",
+   "% unit and axis titles",
+   "June increase annotated",
+   "Slide text with rollback ask"
+  ],
+  "fix-confusing-slide": [
+   "Biggest problem first (method format)",
+   "Pie removed or replaced",
+   "No secondary y-axis",
+   "Truncated axis fixed",
+   "Grey plus one accent",
+   "Action title reps vs revenue",
+   "Numbers match data"
+  ],
+  "exec-deck-storyline-pt": [
+   "Big Idea with 180k ask (method format)",
+   "Every slide title is an action title",
+   "Ask up front",
+   "Exec summary mirrors titles (method format)",
+   "Billing risk acknowledged",
+   "Final slide asks for 180k",
+   "Figures match notes"
+  ]
+ },
+ "results": {
+  "churn-chart-for-cfo/with_skill": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "churn-chart-for-cfo/without_skill": [
+   0,
+   0,
+   1,
+   1,
+   0,
+   0,
+   1,
+   1
+  ],
+  "churn-chart-for-cfo/with_skill_haiku": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "churn-chart-for-cfo/without_skill_haiku": [
+   0,
+   1,
+   1,
+   1,
+   0,
+   0,
+   1,
+   1
+  ],
+  "fix-confusing-slide/with_skill": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "fix-confusing-slide/without_skill": [
+   0,
+   1,
+   1,
+   1,
+   0,
+   1,
+   1
+  ],
+  "fix-confusing-slide/with_skill_haiku": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "fix-confusing-slide/without_skill_haiku": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "exec-deck-storyline-pt/with_skill": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "exec-deck-storyline-pt/without_skill": [
+   0,
+   1,
+   1,
+   0,
+   1,
+   1,
+   1
+  ],
+  "exec-deck-storyline-pt/with_skill_haiku": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "exec-deck-storyline-pt/without_skill_haiku": [
+   0,
+   1,
+   1,
+   0,
+   1,
+   1,
+   1
+  ],
+  "churn-chart-for-cfo/with_skill_haiku_medium": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "churn-chart-for-cfo/without_skill_haiku_medium": [
+   0,
+   1,
+   1,
+   1,
+   0,
+   1,
+   1,
+   1
+  ],
+  "fix-confusing-slide/with_skill_haiku_medium": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "fix-confusing-slide/without_skill_haiku_medium": [
+   0,
+   1,
+   1,
+   1,
+   1,
+   1,
+   0
+  ],
+  "exec-deck-storyline-pt/with_skill_haiku_medium": [
+   0,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "exec-deck-storyline-pt/without_skill_haiku_medium": [
+   0,
+   1,
+   1,
+   0,
+   1,
+   1,
+   1
+  ]
+ },
+ "cost_k_tokens_seconds": {
+  "with_skill": [
+   [
+    126.6,
+    327.5
+   ],
+   [
+    131.1,
+    328.6
+   ],
+   [
+    105.3,
+    211.2
+   ]
+  ],
+  "without_skill": [
+   [
+    98.2,
+    171.8
+   ],
+   [
+    108.7,
+    191.3
+   ],
+   [
+    77.8,
+    72.9
+   ]
+  ],
+  "with_skill_haiku": [
+   [
+    130.8,
+    223.2
+   ],
+   [
+    139.6,
+    244.1
+   ],
+   [
+    113.8,
+    175.4
+   ]
+  ],
+  "without_skill_haiku": [
+   [
+    95.9,
+    114.2
+   ],
+   [
+    114.4,
+    164.6
+   ],
+   [
+    89.9,
+    97.6
+   ]
+  ]
+ },
+ "notes": {
+  "haiku_medium": "claude-haiku-5-5 at reasoning effort medium in both arms. Skill deck: the Big Idea sentence omits the 180k ask (it sits on the Ask line), so assertion 1 fails. Control slide: the subtitle says revenue stayed between $4.2M and $4.6M, but Q1 2024 was $4.1M, so assertion 7 fails."
+ }
+}

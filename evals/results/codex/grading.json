@@ -1,0 +1,62 @@
+{
+ "harness": "Codex CLI 0.166.0-alpha.5.1 (Codex desktop, Windows), orchestrated subagents",
+ "results": {
+  "churn-chart-for-cfo/with_skill": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "churn-chart-for-cfo/without_skill": [
+   0,
+   1,
+   0,
+   1,
+   0,
+   1,
+   1,
+   1
+  ],
+  "fix-confusing-slide/with_skill": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "fix-confusing-slide/without_skill": [
+   1,
+   1,
+   1,
+   1,
+   0,
+   1,
+   1
+  ],
+  "exec-deck-storyline-pt/with_skill": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "exec-deck-storyline-pt/without_skill": [
+   0,
+   1,
+   1,
+   0,
+   1,
+   1,
+   1
+  ]
+ },
+ "note": "Assertion order matches results/iteration-3/grading.json."
+}

@@ -1,0 +1,14 @@
+{
+  "eval_name": "churn-chart-for-cfo",
+  "prompt": "I've attached churn_by_plan.csv. Next week I'm presenting to our CFO and I want to show that the June price increase on the Pro plan is driving churn, and that we should roll it back for existing customers. Make me the chart (PNG) and tell me what to put on the slide.",
+  "assertions": [
+    "Response states the audience, the ask and a one-sentence Big Idea",
+    "Chart title is an action title naming Pro churn and the June price increase",
+    "Pro series is highlighted while Basic and Enterprise are de-emphasized in grey",
+    "Lines are labeled directly with no separate legend",
+    "Chart has no gridlines or chart border, and no top/right spines",
+    "Y-axis values carry a % unit and the y-axis is titled",
+    "The June price increase is annotated on the chart",
+    "Response gives explicit slide text including the rollback ask"
+  ]
+}
