@@ -14,7 +14,7 @@ Every run was an independent agent that saw only the user prompt, the inputs and
 
 Four assertions check conventions the skill itself introduces, and a control group cannot be expected to follow them: the Big Idea block in the churn and deck scenarios, "biggest problem first" in the review, and an executive summary that mirrors the slide titles. The tables report totals with and without them.
 
-## Iteration 4 (0.2.1, fixes for weak models)
+## Iteration 4 (weak models, 0.2.1 and 0.2.2)
 
 An external run on gpt-6-luna at reasoning effort `low` (Codex, both arms in fresh contexts, skill 0.2.0) scored 17/22 with the skill and 13/22 without. The five misses with the skill each traced to the skill text:
 
@@ -38,7 +38,30 @@ A/B check on Claude Haiku at reasoning effort `low`, the same model and effort i
 | **Total** | **22/22** | **21/22** | **15/22** |
 | Without the 4 method-format assertions | 18/18 | 18/18 | 15/18 |
 
-Haiku at low already passed most of what Luna missed, so this run mainly shows that 0.2.1 fixes the summary mirroring and does not regress anything. Confirming the other four fixes needs a rerun on Luna. Outputs and grades: `results/iteration-4/`.
+Haiku at low already passed most of what Luna missed, so this run mainly shows that 0.2.1 fixes the summary mirroring and does not regress anything. Outputs and grades: `results/iteration-4/`.
+
+A second external Luna round (same model, `low`, one fresh agent per version, same 22 assertions) put both versions side by side:
+
+| | 0.2.1 | 0.2.0 (rerun) | No skill (first round) |
+|---|---|---|---|
+| churn-chart-for-cfo | 6/8 | 6/8 | 4/8 |
+| fix-confusing-slide | 7/7 | 6/7 | 5/7 |
+| exec-deck-storyline-pt | 6/7 | 6/7 | 4/7 |
+| **Total** | **19/22** | **18/22** | **13/22** |
+
+One point is within run-to-run noise: 0.2.0 itself scored 17 in the first round and 18 in the second. The signal per rule:
+
+| Rule | Luna, 0.2.0 (two runs) | Luna, 0.2.1 | Reading |
+|---|---|---|---|
+| No gridlines | Failed twice | Passed | The removed exception helped |
+| Ask in the slide text | Failed, then passed | Passed | Unclear |
+| Biggest problem first | Failed, then passed | Passed | Unclear |
+| Title names the June price increase | Failed twice | Failed | The 0.2.1 wording did not land |
+| Summary mirrors the titles | Failed, then passed | Failed | Unclear |
+
+0.2.1 also labelled only the highlighted line, leaving the grey ones unnamed. Neither version flagged the savings figure that does not reconcile.
+
+0.2.2 sharpens the three rules that still slipped, with about 35 more words: the title example now names an event in another domain ("Support tickets doubled after the March release") and the final check asks for the event in the title; every series gets a direct label, grey ones included; the executive summary is one bullet per later slide, in order, and the final check counts them; and the reconciliation check now says to recompute every total, saving or growth figure from its inputs. A regression run on Claude Haiku at low is below; a repeated Luna run is the real test.
 
 ## Iteration 3 (paired control groups)
 

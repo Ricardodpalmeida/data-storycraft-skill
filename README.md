@@ -63,7 +63,7 @@ Three realistic tasks ran on three agents, Claude Haiku at two reasoning levels:
 | Claude Haiku | `claude-haiku-5-5` | medium | 21/22 | 16/22 |
 | Codex | `gpt-6-astra` | xhigh | 22/22 | 16/22 |
 
-Version 0.2.1 closes five gaps found on a weak model. On Claude Haiku at low reasoning it scores 22/22, against 15/22 without the skill ([details](evals/RESULTS.md#iteration-4-021-fixes-for-weak-models)).
+Weak settings keep shaping the skill: on gpt-6-luna at low reasoning it scores 17 to 19 of 22 against 13 without it, and on Claude Haiku at low reasoning 22 against 15 ([details](evals/RESULTS.md#iteration-4-weak-models-021-and-022)).
 
 The test data was written for these evals, and each set hides a trap that a careless agent falls into:
 
