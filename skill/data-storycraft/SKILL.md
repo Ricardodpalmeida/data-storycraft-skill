@@ -37,7 +37,7 @@ Infer what the request leaves out and say so; ask only when a wrong guess would 
 
 ### 3. Declutter
 
-Remove chart border, background fill, gridlines, default markers, trailing zeros and diagonal text. Keep very light grey gridlines only if readers must trace values. Replace the legend with direct labels in the series color. Keep units on numbers ($, %, thousand separators).
+Remove chart border, background fill, gridlines, default markers, trailing zeros and diagonal text. If readers need exact values, label those values instead of adding gridlines. Replace the legend with direct labels in the series color. Keep units on numbers ($, %, thousand separators).
 
 ### 4. Focus
 
@@ -45,11 +45,11 @@ Start with everything grey, then bring forward only what carries the message: on
 
 ### 5. Design
 
-Title the chart and both axes. Make the chart title an action title that states the takeaway ("Backlog has grown every month since May", not "Tickets 2024"). Annotate key points on the chart. Align title, axis titles and legend to the upper left, avoid centered text, and size the visual to its content. Put the data source in a small grey footnote.
+Title the chart and both axes. Make the chart title an action title that states the takeaway ("Backlog has grown every month since May", not "Tickets 2024"). Name the event the message is about ("after the June price increase" states timing, not cause) and put causal caveats in the footnote. Annotate key points on the chart, each label next to the point it describes. Align title, axis titles and legend to the upper left, avoid centered text, and size the visual to its content. Put the data source in a small grey footnote.
 
 ### 6. Story
 
-Beginning: context and tension (what is vs what could be). Middle: evidence, options, cost of inaction. End: an explicit call to action. Lead with the ask for busy or trusting audiences; go chronological when credibility or process matters. In a deck, the slide titles alone tell the story, every slide supports its title, an opening executive summary mirrors the slide titles in order, and the close restates the ask.
+Beginning: context and tension (what is vs what could be). Middle: evidence, options, cost of inaction. End: an explicit call to action. Lead with the ask for busy or trusting audiences; go chronological when credibility or process matters. In a deck, the slide titles alone tell the story, every slide supports its title, and the close restates the ask. Write the titles first and reuse them, in order, as the executive summary bullets.
 
 ## Rules that hold almost always
 
@@ -81,9 +81,9 @@ Open only the reference the task needs.
 
 ## Output
 
-When creating, deliver the context block, the deliverable, and one line on where the eye lands first and why.
+When creating, deliver the context block, the deliverable, and one line on where the eye lands first and why. Slide text goes in one block that ends with the ask, never only in speaker notes.
 
-When reviewing, use this default format:
+When reviewing, name the single biggest problem before any list:
 
 ```
 Biggest problem: <one sentence>
@@ -131,4 +131,5 @@ Fix every "no", then check again. Deliver only when all pass.
 - Is the accent limited, consistent across visuals and readable for colorblind viewers?
 - Are elements left-aligned, text horizontal and white space kept?
 - In a deck, do the titles alone tell the story, and does the executive summary mirror them?
-- Do the numbers in titles and annotations match the data exactly?
+- In a review, is the first line the single biggest problem?
+- Do the numbers match the data exactly, and do derived figures reconcile with their inputs (flag any that do not)?
