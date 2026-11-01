@@ -1,0 +1,120 @@
+{
+ "assertions": {
+  "churn-chart-for-cfo": [
+   "Big Idea block (method format)",
+   "Action chart title",
+   "Pro highlighted, others grey",
+   "Direct labels, no legend",
+   "No gridlines, border or top/right spines",
+   "% unit and axis titles",
+   "June increase annotated",
+   "Slide text with rollback ask"
+  ],
+  "fix-confusing-slide": [
+   "Biggest problem first (method format)",
+   "Pie removed or replaced",
+   "No secondary y-axis",
+   "Truncated axis fixed",
+   "Grey plus one accent",
+   "Action title reps vs revenue",
+   "Numbers match data"
+  ],
+  "exec-deck-storyline-pt": [
+   "Big Idea with 180k ask (method format)",
+   "Every slide title is an action title",
+   "Ask up front",
+   "Exec summary mirrors titles (method format)",
+   "Billing risk acknowledged",
+   "Final slide asks for 180k",
+   "Figures match notes"
+  ]
+ },
+ "setup": "claude-haiku-5-5 at reasoning effort low in every arm. new_skill = v0.2.1, old_skill = v0.2.0, without_skill = control. Iteration 3 prompts with the skill path and output folder changed.",
+ "results": {
+  "churn-chart-for-cfo/new_skill_haiku_low": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "churn-chart-for-cfo/old_skill_haiku_low": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "churn-chart-for-cfo/without_skill_haiku_low": [
+   0,
+   1,
+   1,
+   1,
+   0,
+   1,
+   1,
+   0
+  ],
+  "fix-confusing-slide/new_skill_haiku_low": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "fix-confusing-slide/old_skill_haiku_low": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "fix-confusing-slide/without_skill_haiku_low": [
+   0,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "exec-deck-storyline-pt/new_skill_haiku_low": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "exec-deck-storyline-pt/old_skill_haiku_low": [
+   1,
+   1,
+   1,
+   0,
+   1,
+   1,
+   1
+  ],
+  "exec-deck-storyline-pt/without_skill_haiku_low": [
+   0,
+   0,
+   1,
+   0,
+   1,
+   1,
+   1
+  ]
+ },
+ "notes": "Control churn: gridlines kept and the suggested slide text has no rollback ask. Control slide: the opening names two problems, not one. Control deck: no Big Idea, slide 1 has a topic title, no mirrored summary. Old-skill deck: summary bullets list data points instead of mirroring the titles. All three decks flag that the 1.4M savings figure does not reconcile with the notes."
+}

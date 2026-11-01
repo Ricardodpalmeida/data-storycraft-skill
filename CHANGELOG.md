@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.2.1 (2026-11-01)
+
+Five fixes from a weak-model run (Luna at low reasoning: 17/22 with the skill, 13/22 without), about 80 more words in SKILL.md:
+
+- Gridlines have no exception left: label the values readers need instead.
+- Action titles keep the event ("after the June price increase"), which states timing, not cause; causal caveats go in the footnote.
+- Slide text is one block that ends with the ask, never only in speaker notes.
+- Reviews name the single biggest problem before any list, and the final check verifies it.
+- Decks: write the slide titles first and reuse them, in order, as the executive summary bullets.
+- The final check also asks whether derived figures reconcile with their inputs.
+
+Verified on Claude Haiku at low reasoning: 22/22 with 0.2.1, 21/22 with 0.2.0, 15/22 without the skill (see `evals/RESULTS.md`).
+
 ## 0.2.0 (2026-10-31)
 
 - Renamed the method credit from "Distilled from" to "Inspired by".

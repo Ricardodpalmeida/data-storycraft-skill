@@ -14,7 +14,33 @@ Every run was an independent agent that saw only the user prompt, the inputs and
 
 Four assertions check conventions the skill itself introduces, and a control group cannot be expected to follow them: the Big Idea block in the churn and deck scenarios, "biggest problem first" in the review, and an executive summary that mirrors the slide titles. The tables report totals with and without them.
 
-## Iteration 3 (current skill, paired control groups)
+## Iteration 4 (0.2.1, fixes for weak models)
+
+An external run on gpt-6-luna at reasoning effort `low` (Codex, both arms in fresh contexts, skill 0.2.0) scored 17/22 with the skill and 13/22 without. The five misses with the skill each traced to the skill text:
+
+| Miss | Cause in 0.2.0 | Fix in 0.2.1 |
+|---|---|---|
+| Churn title dropped "price increase" | Nothing said that naming the event is not a causal claim | Keep the event in the title; causal caveats go in the footnote |
+| Gridlines kept | "Keep very light grey gridlines only if readers must trace values" read as permission | No exception; label the values readers need |
+| Rollback ask only in speaker notes | No rule on where the ask goes | Slide text is one block that ends with the ask |
+| Review listed issues without a biggest problem | Template only, no check | Name the biggest problem before any list; added to the final check |
+| Executive summary did not mirror the titles | "Mirrors the slide titles" was too abstract | Write the titles first, then reuse them as the summary bullets |
+
+The final check also gained a reconciliation question (none of the Luna decks flagged that 1.4M did not match €0.90 × 2.1M). SKILL.md grew by about 80 words and one line.
+
+A/B check on Claude Haiku at reasoning effort `low`, the same model and effort in every arm:
+
+| Scenario | 0.2.1 | 0.2.0 | No skill |
+|---|---|---|---|
+| churn-chart-for-cfo | 8/8 | 8/8 | 5/8 |
+| fix-confusing-slide | 7/7 | 7/7 | 6/7 |
+| exec-deck-storyline-pt | 7/7 | 6/7 | 4/7 |
+| **Total** | **22/22** | **21/22** | **15/22** |
+| Without the 4 method-format assertions | 18/18 | 18/18 | 15/18 |
+
+Haiku at low already passed most of what Luna missed, so this run mainly shows that 0.2.1 fixes the summary mirroring and does not regress anything. Confirming the other four fixes needs a rerun on Luna. Outputs and grades: `results/iteration-4/`.
+
+## Iteration 3 (paired control groups)
 
 Skill revised for verbosity and duplication before this run: 6,504 to 4,781 words (26% fewer), SKILL.md from 164 to 134 lines. Models: `claude-sonnet-5-5` and `claude-haiku-5-5`, both arms at reasoning effort `xhigh`.
 

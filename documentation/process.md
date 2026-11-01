@@ -51,6 +51,8 @@ Every failure was traced to something in the skill, never written off as the mod
 | 2 | Targeted re-runs of the two cells that missed | Haiku deck 7/7 (was 6/7); Sonnet churn 8/8 (was 7/8) at 124k tokens instead of 145k | The review for verbosity and duplication (section 5) |
 | 3 | Revised skill: Sonnet and Haiku, each with its own control | Sonnet 22 vs 14; Haiku 22 vs 17 | None needed |
 | Haiku medium | Same scenarios on Claude Haiku at medium reasoning | 21 vs 16 | None needed |
+| Luna low (external) | Same scenarios on gpt-6-luna at low reasoning, skill 0.2.0 | 17 vs 13 | Five rules tightened in 0.2.1 (about 80 words) |
+| 4 | 0.2.1 vs 0.2.0 vs no skill on Claude Haiku at low reasoning | 22, 21 vs 15 | None needed |
 | Codex | Same scenarios and skill version on Codex | 22 vs 16 | None needed |
 
 ## 5. Cut without losing behaviour

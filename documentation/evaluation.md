@@ -99,6 +99,8 @@ Assertions marked *method format* test conventions the skill introduces. No cont
 | 2 | After the round 1 fixes | The two cells that missed | Confirm each fix |
 | 3 | After the verbosity cut (4,781 words) | Sonnet and Haiku, each with its own control | Final Claude measurement |
 | Haiku medium | Same as round 3 | Claude Haiku at `medium` with skill and control | Weaker setting |
+| Luna low (external) | 0.2.0 | gpt-6-luna at `low` with skill and control, run by the author in Codex | Weak-model check |
+| 4 | 0.2.1 against 0.2.0 | Claude Haiku at `low`: 0.2.1, 0.2.0 and no skill | Confirm the weak-model fixes |
 | Codex | Same as round 3 | Codex with skill and Codex control | Cross-vendor check |
 
 Scores and findings per round are in [evals/RESULTS.md](../evals/RESULTS.md).
