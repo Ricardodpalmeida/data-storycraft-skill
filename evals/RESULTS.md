@@ -73,6 +73,10 @@ Regression on Claude Haiku at reasoning effort `low` with 0.2.2: churn 8/8 and s
 
 0.2.2 is 146 lines and about 1,290 words, against 134 lines and 1,125 words for 0.2.0.
 
+### 0.2.3 draft (branch `skill-023`)
+
+Structural nudges for the gaps Luna left open, about 30 more words: a `Check` line in the context block that recomputes each total, saving or growth from its parts before writing; the deck skeleton now says "last slide included"; and two final-check items, one for a direct label on every series and one for the ask in the slide text itself. Regression on Claude Haiku at `low`: 22/22, with the Check line filled in all three runs and the savings mismatch flagged in the deck. Outputs: `results/iteration-6/`. Not yet run on Luna.
+
 ### Luna, three runs per arm (0.2.2 against 0.2.0 and a fresh control)
 
 External run: nine fresh gpt-6-luna agents at reasoning effort `low`, three per arm, each running the three scenarios in order, graded with the same strict reading as the earlier Luna rounds.
