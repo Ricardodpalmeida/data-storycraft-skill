@@ -101,6 +101,8 @@ Assertions marked *method format* test conventions the skill introduces. No cont
 | Haiku medium | Same as round 3 | Claude Haiku at `medium` with skill and control | Weaker setting |
 | Luna low (external) | 0.2.0 | gpt-6-luna at `low` with skill and control, run by the author in Codex | Weak-model check |
 | 4 | 0.2.1 against 0.2.0 | Claude Haiku at `low`: 0.2.1, 0.2.0 and no skill | Confirm the weak-model fixes |
+| Luna low, second round (external) | 0.2.1 against 0.2.0 | gpt-6-luna at `low`, one run per version | Check the fixes on the model that exposed them |
+| 5 | 0.2.2 | Claude Haiku at `low`, deck three times | Regression and deck skeleton |
 | Codex | Same as round 3 | Codex with skill and Codex control | Cross-vendor check |
 
 Scores and findings per round are in [evals/RESULTS.md](../evals/RESULTS.md).

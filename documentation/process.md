@@ -53,6 +53,8 @@ Every failure was traced to something in the skill, never written off as the mod
 | Haiku medium | Same scenarios on Claude Haiku at medium reasoning | 21 vs 16 | None needed |
 | Luna low (external) | Same scenarios on gpt-6-luna at low reasoning, skill 0.2.0 | 17 vs 13 | Five rules tightened in 0.2.1 (about 80 words) |
 | 4 | 0.2.1 vs 0.2.0 vs no skill on Claude Haiku at low reasoning | 22, 21 vs 15 | None needed |
+| Luna low, second round (external) | 0.2.1 vs 0.2.0 | 19 vs 18 | Title, labels, summary and reconciliation rules sharpened in 0.2.2 |
+| 5 | 0.2.2 on Claude Haiku at low reasoning, deck run three times | Churn 8/8, slide 7/7, deck mirrored 3 of 3 | Big Idea template asks for the amount |
 | Codex | Same scenarios and skill version on Codex | 22 vs 16 | None needed |
 
 ## 5. Cut without losing behaviour

@@ -2,11 +2,12 @@
 
 ## 0.2.2 (2026-11-01)
 
-Sharper wording for the three rules that still slipped on Luna at low reasoning with 0.2.1 (19/22, against 18/22 for 0.2.0 in the same round), about 35 more words:
+Sharper wording for the rules that still slipped on Luna at low reasoning with 0.2.1 (19/22, against 18/22 for 0.2.0 in the same round). SKILL.md is now 146 lines:
 
 - The title example names an event in another domain, and the final check asks for the event the user named in the title.
 - Every series gets a direct label, grey ones included.
-- The executive summary is one bullet per later slide, in order, and the final check counts them.
+- Decks follow a short skeleton in Output whose summary bullets are the later slide titles, and the final check counts them.
+- The Big Idea template asks for the concrete ask, with its amount or date.
 - The reconciliation check says to recompute every total, saving or growth figure from its inputs.
 
 ## 0.2.1 (2026-11-01)

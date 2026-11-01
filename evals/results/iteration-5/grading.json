@@ -1,0 +1,91 @@
+{
+ "assertions": {
+  "churn-chart-for-cfo": [
+   "Big Idea block (method format)",
+   "Action chart title",
+   "Pro highlighted, others grey",
+   "Direct labels, no legend",
+   "No gridlines, border or top/right spines",
+   "% unit and axis titles",
+   "June increase annotated",
+   "Slide text with rollback ask"
+  ],
+  "fix-confusing-slide": [
+   "Biggest problem first (method format)",
+   "Pie removed or replaced",
+   "No secondary y-axis",
+   "Truncated axis fixed",
+   "Grey plus one accent",
+   "Action title reps vs revenue",
+   "Numbers match data"
+  ],
+  "exec-deck-storyline-pt": [
+   "Big Idea with 180k ask (method format)",
+   "Every slide title is an action title",
+   "Ask up front",
+   "Exec summary mirrors titles (method format)",
+   "Billing risk acknowledged",
+   "Final slide asks for 180k",
+   "Figures match notes"
+  ]
+ },
+ "setup": "claude-haiku-5-5 at reasoning effort low, skill 0.2.2. The churn and slide runs used 0.2.2 before the deck skeleton was added (the skeleton only changes deck output). The deck ran three times with the skeleton.",
+ "results": {
+  "churn-chart-for-cfo/skill_022_haiku_low": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "fix-confusing-slide/skill_022_haiku_low": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "exec-deck-storyline-pt/skill_022_haiku_low": [
+   1,
+   1,
+   1,
+   0,
+   1,
+   1,
+   1
+  ],
+  "exec-deck-storyline-pt/skeleton_run1_haiku_low": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "exec-deck-storyline-pt/skeleton_run2_haiku_low": [
+   0,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "exec-deck-storyline-pt/skeleton_run3_haiku_low": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ]
+ },
+ "notes": "skill_022 deck (before the skeleton): four summary bullets for five later slides, so no mirroring. Skeleton runs: all three mirror the later titles. Run 2's Big Idea leaves out the 180k amount (it sits on the Ask line), which led to the 'concrete ask, with its amount or date' wording in the context template. All three skeleton decks flag that the 1.4M savings figure does not reconcile with the notes."
+}

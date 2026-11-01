@@ -19,7 +19,7 @@ Before any chart, write this block and put it at the top of the output:
 Audience:  <specific person or group, ideally the decision maker>
 Ask:       <what they must know or do>
 Mechanism: <live presentation | sent document | both>
-Big Idea:  <one sentence: point of view + what is at stake + the ask>
+Big Idea:  <one sentence: point of view + what is at stake + the concrete ask, with its amount or date>
 ```
 
 Infer what the request leaves out and say so; ask only when a wrong guess would make the work unusable. Show the data that supports the Big Idea and acknowledge the data that contradicts it.

@@ -61,7 +61,17 @@ One point is within run-to-run noise: 0.2.0 itself scored 17 in the first round 
 
 0.2.1 also labelled only the highlighted line, leaving the grey ones unnamed. Neither version flagged the savings figure that does not reconcile.
 
-0.2.2 sharpens the three rules that still slipped, with about 35 more words: the title example now names an event in another domain ("Support tickets doubled after the March release") and the final check asks for the event in the title; every series gets a direct label, grey ones included; the executive summary is one bullet per later slide, in order, and the final check counts them; and the reconciliation check now says to recompute every total, saving or growth figure from its inputs. A regression run on Claude Haiku at low is below; a repeated Luna run is the real test.
+0.2.2 sharpens the rules that still slipped:
+
+- The title example now names an event in another domain ("Support tickets doubled after the March release"), and the final check asks for the event in the title.
+- Every series gets a direct label, grey ones included.
+- The reconciliation check says to recompute every total, saving or growth figure from its inputs.
+- The abstract "mirror the titles" rule became a short deck skeleton whose summary bullets are the later titles. The wording alone ("one bullet per later slide") still failed once on Claude Haiku at low.
+- The Big Idea template asks for the concrete ask, with its amount or date.
+
+Regression on Claude Haiku at reasoning effort `low` with 0.2.2: churn 8/8 and slide 7/7. With the skeleton, the deck mirrored the titles in 3 of 3 runs, and all three flagged that the savings figure does not reconcile. One of the three left the €180k amount out of the Big Idea, which led to the last template change (not yet rerun). Outputs and grades: `results/iteration-5/`.
+
+0.2.2 is 146 lines and about 1,290 words, against 134 lines and 1,125 words for 0.2.0. A repeated Luna run, ideally three runs per arm, is the real test.
 
 ## Iteration 3 (paired control groups)
 
