@@ -41,7 +41,7 @@ Remove chart border, background fill, gridlines, default markers, trailing zeros
 
 ### 4. Focus
 
-Start with everything grey, then bring forward only what carries the message: one accent color (default blue; orange for negative), a thicker line, markers and value labels on the few points the message references, bold or larger text. Keep the accent to about 10% of the visual, put the most important element at the top left, and keep color meanings identical across every visual in a deck or report.
+Start with everything grey, then bring forward only what carries the message: one accent color (default blue; orange for negative), a thicker line, markers and value labels on at most 3 points the message references, bold or larger text. Keep the accent to 10% of the ink at most and to 3 elements at most, put the most important element at the top left, and keep color meanings identical across every visual in a deck or report.
 
 ### 5. Design
 
@@ -70,7 +70,7 @@ Open only the reference the task needs.
 |---|---|
 | [reference/context.md](reference/context.md) | The brief is vague; need the Big Idea, requester questions or a storyboard |
 | [reference/choosing-visuals.md](reference/choosing-visuals.md) | A need the defaults above do not cover, or notes on a default |
-| [reference/decluttering.md](reference/decluttering.md) | A chart or page feels busy; grouping, alignment, contrast |
+| [reference/decluttering.md](reference/decluttering.md) | A chart has more than 5 series or still has a legend; grouping, alignment, contrast |
 | [reference/focusing-attention.md](reference/focusing-attention.md) | Color decisions, emphasis nuances, the eyes-drawn test |
 | [reference/designing.md](reference/designing.md) | Text emphasis, hierarchy, accessibility, stakeholder pushback |
 | [reference/model-visuals.md](reference/model-visuals.md) | A proven recipe for a common chart |
@@ -136,7 +136,7 @@ Fix every "no", then check again. Deliver only when all pass.
 
 - Is the Big Idea one sentence with an explicit ask?
 - Is this the easiest chart to read for the comparison that matters?
-- Does every remaining element earn its place?
+- For each element, can you name the reader question it answers? Remove the ones that answer none.
 - Does the eye land first on the point of the message?
 - Are the chart and axes titled, with the takeaway and the event the user named stated in the title?
 - Is the accent limited, consistent across visuals and readable for colorblind viewers?

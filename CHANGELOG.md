@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.2.3 (unreleased)
+
+Four vague phrases from the 1 November skills audit become counts. SKILL.md stays 146 lines:
+
+- The accent covers 10% of the ink at most and 3 elements at most (was "about 10%").
+- Value labels and markers go on at most 3 points (was "the few points").
+- The final check asks which reader question each element answers (was "earn its place").
+- The decluttering reference opens when a chart has more than 5 series or still has a legend (was "feels busy").
+
+Not yet evaluated against 0.2.2.
+
 ## 0.2.2 (2026-11-01)
 
 Sharper wording for the rules that still slipped on Luna at low reasoning with 0.2.1 (19/22, against 18/22 for 0.2.0 in the same round). SKILL.md is now 146 lines:
