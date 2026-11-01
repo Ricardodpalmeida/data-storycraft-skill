@@ -10,6 +10,8 @@ Sharper wording for the rules that still slipped on Luna at low reasoning with 0
 - The Big Idea template asks for the concrete ask, with its amount or date.
 - The reconciliation check says to recompute every total, saving or growth figure from its inputs.
 
+Luna at low reasoning, three runs per arm: 0.2.2 averaged 19.3/22 (19 to 20), 0.2.0 15.0/22 (13 to 17) and no skill 12.7/22 (12 to 13).
+
 ## 0.2.1 (2026-11-01)
 
 Five fixes from a weak-model run (Luna at low reasoning: 17/22 with the skill, 13/22 without), about 80 more words in SKILL.md:

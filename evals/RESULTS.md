@@ -71,7 +71,30 @@ One point is within run-to-run noise: 0.2.0 itself scored 17 in the first round 
 
 Regression on Claude Haiku at reasoning effort `low` with 0.2.2: churn 8/8 and slide 7/7. With the skeleton, the deck mirrored the titles in 3 of 3 runs, and all three flagged that the savings figure does not reconcile. One of the three left the €180k amount out of the Big Idea, which led to the last template change (not yet rerun). Outputs and grades: `results/iteration-5/`.
 
-0.2.2 is 146 lines and about 1,290 words, against 134 lines and 1,125 words for 0.2.0. A repeated Luna run, ideally three runs per arm, is the real test.
+0.2.2 is 146 lines and about 1,290 words, against 134 lines and 1,125 words for 0.2.0.
+
+### Luna, three runs per arm (0.2.2 against 0.2.0 and a fresh control)
+
+External run: nine fresh gpt-6-luna agents at reasoning effort `low`, three per arm, each running the three scenarios in order, graded with the same strict reading as the earlier Luna rounds.
+
+| Arm | Mean /22 | Range /22 | Mean without method-format /18 | Range /18 |
+|---|---|---|---|---|
+| 0.2.2 | 19.3 | 19 to 20 | 16.3 | 16 to 17 |
+| 0.2.0 | 15.0 | 13 to 17 | 13.3 | 12 to 15 |
+| No skill | 12.7 | 12 to 13 | 12.7 | 12 to 13 |
+
+The worst 0.2.2 run beat the best 0.2.0 run. Runs passing each rule, out of three:
+
+| Rule | 0.2.2 | 0.2.0 | No skill |
+|---|---|---|---|
+| Title names the June price increase | 3 | 0 | 1 |
+| No gridlines | 2 | 0 | 0 |
+| Ask in the slide text | 2 | 2 | 3 |
+| Biggest problem first | 3 | 1 | 0 |
+| Summary mirrors the later titles in order | 1 | 0 | 0 |
+| Every series labelled directly | 1 | 0 | 0 |
+
+Still open on 0.2.2: one deck left the last slide out of the summary and another reordered it, two churn charts left the grey lines unlabelled (one with a legend), one slide used two accents, one churn reply put the rollback ask outside the slide text, and one run misstated a June value. None of the nine decks flagged that €0.90 × 2.1M is about €1.89M rather than €1.4M, so the recompute instruction in the final check does not reach Luna. Every 0.2.x change was motivated by these three scenarios, so the next useful test is a set of new scenarios the skill was not tuned on.
 
 ## Iteration 3 (paired control groups)
 
