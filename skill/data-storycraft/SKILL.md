@@ -49,7 +49,7 @@ Title the chart and both axes. Make the chart title an action title that states 
 
 ### 6. Story
 
-Beginning: context and tension (what is vs what could be). Middle: evidence, options, cost of inaction. End: an explicit call to action. Lead with the ask for busy or trusting audiences; go chronological when credibility or process matters. In a deck, the slide titles alone tell the story, every slide supports its title, and the close restates the ask. Write the titles first and reuse them as the executive summary: one bullet per later slide, in order.
+Beginning: context and tension (what is vs what could be). Middle: evidence, options, cost of inaction. End: an explicit call to action. Lead with the ask for busy or trusting audiences; go chronological when credibility or process matters. In a deck, the slide titles alone tell the story, every slide supports its title, and the close restates the ask. Build decks on the skeleton in Output.
 
 ## Rules that hold almost always
 
@@ -82,6 +82,17 @@ Open only the reference the task needs.
 ## Output
 
 When creating, deliver the context block, the deliverable, and one line on where the eye lands first and why. Slide text goes in one block that ends with the ask, never only in speaker notes.
+
+When structuring a deck, use this skeleton, with the summary bullets copied from the later titles:
+
+```
+Slide 1: <Big Idea with the ask>
+- <title of slide 2>
+- <title of slide 3, and so on: one bullet per later slide, same words, same order>
+Slide 2: <action title>
+...
+Last slide: <the ask, restated>
+```
 
 When reviewing, name the single biggest problem before any list:
 
