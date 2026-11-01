@@ -20,6 +20,7 @@ Audience:  <specific person or group, ideally the decision maker>
 Ask:       <what they must know or do>
 Mechanism: <live presentation | sent document | both>
 Big Idea:  <one sentence: point of view + what is at stake + the concrete ask, with its amount or date>
+Check:     <each total, saving or growth in the inputs recomputed from its parts; mismatches, or none>
 ```
 
 Infer what the request leaves out and say so; ask only when a wrong guess would make the work unusable. Show the data that supports the Big Idea and acknowledge the data that contradicts it.
@@ -88,7 +89,7 @@ When structuring a deck, use this skeleton, with the summary bullets copied from
 ```
 Slide 1: <Big Idea with the ask>
 - <title of slide 2>
-- <title of slide 3, and so on: one bullet per later slide, same words, same order>
+- <title of slide 3, and so on: one bullet per later slide, last slide included, same words, same order>
 Slide 2: <action title>
 ...
 Last slide: <the ask, restated>
@@ -143,4 +144,6 @@ Fix every "no", then check again. Deliver only when all pass.
 - Are elements left-aligned, text horizontal and white space kept?
 - In a deck, do the titles alone tell the story, and does the executive summary have one bullet per later slide, matching its title?
 - In a review, is the first line the single biggest problem?
-- Do the numbers match the data exactly? Recompute every total, saving or growth figure you show from its inputs, and flag any that do not match.
+- Does every series carry its own direct label, with no legend?
+- Does the slide text itself end with the ask?
+- Do the numbers match the data exactly, and are the mismatches from the Check line flagged?
