@@ -24,6 +24,8 @@ Big Idea:  <one sentence: point of view + what is at stake + the concrete ask, w
 
 Infer what the request leaves out and say so; ask only when a wrong guess would make the work unusable. Show the data that supports the Big Idea and acknowledge the data that contradicts it.
 
+Check the source, period, units and denominator before choosing the message. Missing values stay missing, not zero; keep gaps visible and label any supplied estimates. Distinguish percentage-point changes from relative percentage changes. Do not invent amounts, dates or data to complete the Big Idea; leave unsupported claims open.
+
 ### 2. Visual
 
 | Need | Default |
@@ -144,3 +146,4 @@ Fix every "no", then check again. Deliver only when all pass.
 - In a deck, do the titles alone tell the story, and does the executive summary have one bullet per later slide, matching its title?
 - In a review, is the first line the single biggest problem?
 - Do the numbers match the data exactly? Recompute every total, saving or growth figure you show from its inputs, and flag any that do not match.
+- Are missing values, estimates, units and denominators clear, with percentage changes distinguished from percentage-point changes?

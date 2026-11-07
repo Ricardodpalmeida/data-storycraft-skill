@@ -72,6 +72,8 @@ Weak settings shaped the latest versions. On the weakest one tested, each arm ra
 
 On Claude Haiku at low reasoning, 0.2.1 scored 22/22 against 15/22 without the skill ([details](evals/RESULTS.md#iteration-4-weak-models-021-and-022)).
 
+These results belong to the versions tested. Version 0.2.3 adds wording and data-integrity checks; it has no new comparative model benchmark.
+
 The test data was written for these evals, and each set hides a trap that a careless agent falls into:
 
 | Scenario | Input | What it contains | The trap |

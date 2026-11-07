@@ -1,15 +1,16 @@
 # Changelog
 
-## 0.2.3 (unreleased)
+## 0.2.3 (2026-11-07)
 
-Four vague phrases from the 1 November skills audit become counts. SKILL.md stays 146 lines:
+Clarify data integrity and make the existing guidance more specific:
 
+- Check source, period, units and denominators before choosing a message. Preserve missing values, label estimates, distinguish percentages from percentage points and leave unsupported amounts or dates open.
 - The accent covers 10% of the ink at most and 3 elements at most (was "about 10%").
 - Value labels and markers go on at most 3 points (was "the few points").
 - The final check asks which reader question each element answers (was "earn its place").
 - The decluttering reference opens when a chart has more than 5 series or still has a legend (was "feels busy").
 
-Not yet evaluated against 0.2.2.
+The published benchmark scores remain those of the earlier versions. No new comparative model benchmark is claimed for 0.2.3.
 
 ## 0.2.2 (2026-11-01)
 
