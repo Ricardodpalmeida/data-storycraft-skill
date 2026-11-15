@@ -13,6 +13,10 @@ Most charts show data. Few make a point. **data-storycraft** is an Agent Skill t
 
 Inspired by Storytelling with Data by Cole Nussbaumer Knaflic.
 
+## Quick navigation
+
+[Before and after](#before-and-after) · [How it works](#how-it-works) · [Benchmarks](#benchmarks) · [Install](#install) · [Package contents](#what-is-inside)
+
 ## Before and after
 
 Real outputs, not mock-ups. Each row is one request run twice by the same model at the same reasoning level: once without the skill, once with it. Four rows use Claude Haiku at medium reasoning, the weakest setting tested. Every run, including the pairs not shown, is in [evals/examples](evals/examples) and [evals/results](evals/results).

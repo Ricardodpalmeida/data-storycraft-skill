@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.4 (2026-11-15)
+
+- Documentation only: add a human-facing documentation index. Add quick-navigation links to the repository README. Agent instructions, references, scripts, templates, examples, dependencies and configuration are unchanged.
+
 ## 0.2.3 (2026-11-07)
 
 Clarify data integrity and make the existing guidance more specific:
