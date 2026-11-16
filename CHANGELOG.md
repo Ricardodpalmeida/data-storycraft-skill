@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.6 (2026-11-16)
+
+- Documentation only: Make the packaged README self-contained with a short overview and a direct link to its canonical ClawHub page. Agent instructions, code, operational references, examples, templates, dependencies and configuration are unchanged.
+
 ## 0.2.4 (2026-11-15)
 
 - Documentation only: add a human-facing documentation index. Add quick-navigation links to the repository README. Agent instructions, references, scripts, templates, examples, dependencies and configuration are unchanged.
